@@ -1,0 +1,20 @@
+{
+  "name": "GameObjectBridge.Entities.VfxGraph",
+  "references": [
+    "GameObjectBridge.Entities",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.VisualEffectGraph.Runtime"
+  ],
+  "defineConstraints": [
+    "BRIDGE_VFXGRAPH"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.visualeffectgraph",
+      "expression": "[17.3,18.0)",
+      "define": "BRIDGE_VFXGRAPH"
+    }
+  ]
+}

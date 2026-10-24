@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "com.seikasan.entities.authoring": "https://github.com/seikasan/entities-extensions.git?path=/entities-extensions/com.seikasan.entities.authoring#main",
+    "com.seikasan.gameobjectbridge.entities": "https://github.com/seikasan/entities-extensions.git?path=/entities-extensions/com.seikasan.gameobjectbridge.entities#main",
+    "com.seikasan.inputsystem.entities": "https://github.com/seikasan/entities-extensions.git?path=/entities-extensions/com.seikasan.inputsystem.entities#main",
+    "com.seikasan.instantiation.entities": "https://github.com/seikasan/entities-extensions.git?path=/entities-extensions/com.seikasan.instantiation.entities#main",
+    "com.seikasan.physicsevents.entities": "https://github.com/seikasan/entities-extensions.git?path=/entities-extensions/com.seikasan.physicsevents.entities#main",
+    "com.seikasan.physicsqueries.entities": "https://github.com/seikasan/entities-extensions.git?path=/entities-extensions/com.seikasan.physicsqueries.entities#main"
+  }
+}

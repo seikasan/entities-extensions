@@ -1,0 +1,11 @@
+{
+  "name": "PhysicsQueries.Entities.RaycastSample",
+  "references": [
+    "PhysicsQueries.Entities",
+    "Unity.Entities",
+    "Unity.Physics",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Burst"
+  ]
+}

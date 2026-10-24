@@ -1,0 +1,13 @@
+{
+  "name": "GameObjectBridge.Entities.Fmod",
+  "references": [
+    "GameObjectBridge.Entities",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "FMODUnity"
+  ],
+  "defineConstraints": [
+    "GAMEOBJECT_BRIDGE_FMOD"
+  ]
+}

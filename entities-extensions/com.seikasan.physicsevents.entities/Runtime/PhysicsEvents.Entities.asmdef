@@ -1,0 +1,13 @@
+{
+  "name": "PhysicsEvents.Entities",
+  "rootNamespace": "PhysicsEvents.Entities",
+  "references": [
+    "Unity.Entities",
+    "Unity.Physics",
+    "Unity.Collections",
+    "Unity.Burst",
+    "Unity.Entities.Hybrid"
+  ],
+  "autoReferenced": true,
+  "allowUnsafeCode": false
+}

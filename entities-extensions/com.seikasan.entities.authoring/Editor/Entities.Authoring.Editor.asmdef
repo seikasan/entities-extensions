@@ -1,0 +1,14 @@
+{
+  "name": "Entities.Authoring.Editor",
+  "rootNamespace": "Entities.Authoring.Editor",
+  "references": [
+    "Entities.Authoring",
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Collections"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

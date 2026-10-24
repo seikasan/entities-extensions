@@ -1,0 +1,30 @@
+{
+  "name": "com.seikasan.physicsevents.entities",
+  "version": "1.0.0",
+  "displayName": "Physics Events for Entities",
+  "description": "Burst physics event buffers with shared contact history and contiguous entity notifications.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "seika",
+    "url": "https://github.com/seikasan"
+  },
+  "dependencies": {
+    "com.unity.entities": "1.5.0",
+    "com.unity.physics": "1.5.0",
+    "com.unity.collections": "2.7.1",
+    "com.unity.burst": "1.8.30"
+  },
+  "samples": [
+    {
+      "displayName": "Trigger Pickup",
+      "description": "A runnable trigger pickup example using ordinary ECS event buffers.",
+      "path": "Samples~/TriggerPickup"
+    },
+    {
+      "displayName": "Collision Phases",
+      "description": "Collision Enter, Stay and Exit through normal SystemAPI queries.",
+      "path": "Samples~/CollisionPhases"
+    }
+  ]
+}

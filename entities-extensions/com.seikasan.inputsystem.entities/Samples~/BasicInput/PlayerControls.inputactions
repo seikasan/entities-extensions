@@ -1,0 +1,83 @@
+{
+  "name": "PlayerControls",
+  "maps": [
+    {
+      "name": "Gameplay",
+      "id": "6545cf09-fb5e-42fa-852a-cc0046394e35",
+      "actions": [
+        {
+          "name": "Move",
+          "type": "Value",
+          "id": "7755abb0-8ddd-4d0a-8101-e5821a6e8380",
+          "expectedControlType": "Vector2",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Jump",
+          "type": "Button",
+          "id": "a3c3877e-df6f-45df-9b81-182460b39423",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        }
+      ],
+      "bindings": [
+        {
+          "name": "2D Vector",
+          "id": "72acb9ea-d931-480e-8c92-4854589bfbd4",
+          "path": "2DVector",
+          "action": "Move",
+          "isComposite": true
+        },
+        {
+          "name": "up",
+          "id": "89242534-0028-4424-a90a-5c367a12c590",
+          "path": "<Keyboard>/w",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "down",
+          "id": "8e1c9860-c40c-40cb-9a1b-a8a4379ad69c",
+          "path": "<Keyboard>/s",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "left",
+          "id": "189c9860-c40c-40cb-9a1b-a8a4379ad69c",
+          "path": "<Keyboard>/a",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "right",
+          "id": "289c9860-c40c-40cb-9a1b-a8a4379ad69c",
+          "path": "<Keyboard>/d",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "Gamepad Stick",
+          "id": "389c9860-c40c-40cb-9a1b-a8a4379ad69c",
+          "path": "<Gamepad>/leftStick",
+          "action": "Move"
+        },
+        {
+          "id": "489c9860-c40c-40cb-9a1b-a8a4379ad69c",
+          "path": "<Keyboard>/space",
+          "action": "Jump"
+        },
+        {
+          "id": "589c9860-c40c-40cb-9a1b-a8a4379ad69c",
+          "path": "<Gamepad>/buttonSouth",
+          "action": "Jump"
+        }
+      ]
+    }
+  ],
+  "controlSchemes": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "GameObjectBridge.Entities.Cinemachine",
+  "references": [
+    "GameObjectBridge.Entities",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Cinemachine"
+  ],
+  "defineConstraints": [
+    "BRIDGE_CINEMACHINE"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.cinemachine",
+      "expression": "[3.1,4.0)",
+      "define": "BRIDGE_CINEMACHINE"
+    }
+  ]
+}

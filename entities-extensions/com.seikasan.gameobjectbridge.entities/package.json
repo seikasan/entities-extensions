@@ -1,0 +1,44 @@
+{
+  "name": "com.seikasan.gameobjectbridge.entities",
+  "version": "1.0.0",
+  "displayName": "GameObject Bridge for Entities",
+  "description": "World-scoped Entity/GameObject bindings, transform synchronization, and optional Cinemachine, VFX Graph, and FMOD integrations.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "seika",
+    "url": "https://github.com/seikasan"
+  },
+  "dependencies": {
+    "com.unity.entities": "1.5.0",
+    "com.unity.mathematics": "1.3.3",
+    "com.unity.collections": "2.7.1"
+  },
+  "samples": [
+    {
+      "displayName": "Automatic Views",
+      "description": "Spawn and destroy Entities with automatic owned GameObject views. Assign one view prefab.",
+      "path": "Samples~/AutomaticViews"
+    },
+    {
+      "displayName": "Transform Bridge",
+      "description": "A self-contained two-direction transform synchronization sample.",
+      "path": "Samples~/TransformBridge"
+    },
+    {
+      "displayName": "Cinemachine",
+      "description": "Entity-driven Cinemachine 3 tracking. Requires Cinemachine 3.1.",
+      "path": "Samples~/Cinemachine"
+    },
+    {
+      "displayName": "VFX Graph",
+      "description": "Entity-driven VFX properties and events. Requires VFX Graph 17.3.",
+      "path": "Samples~/VfxGraph"
+    },
+    {
+      "displayName": "FMOD",
+      "description": "Spatial event playback and parameter commands. Requires FMOD Unity and local banks.",
+      "path": "Samples~/Fmod"
+    }
+  ]
+}

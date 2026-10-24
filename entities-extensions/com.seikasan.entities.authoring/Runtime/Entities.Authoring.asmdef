@@ -1,0 +1,10 @@
+{
+  "name": "Entities.Authoring",
+  "rootNamespace": "Entities.Authoring",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Collections"
+  ],
+  "autoReferenced": true
+}

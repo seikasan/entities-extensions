@@ -1,0 +1,11 @@
+{
+  "name": "PhysicsQueries.Entities",
+  "rootNamespace": "PhysicsQueries.Entities",
+  "references": [
+    "Unity.Entities",
+    "Unity.Physics",
+    "Unity.Mathematics",
+    "Unity.Collections"
+  ],
+  "autoReferenced": true
+}

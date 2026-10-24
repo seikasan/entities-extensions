@@ -1,0 +1,15 @@
+{
+  "name": "PhysicsEvents.Entities.CollisionSample",
+  "rootNamespace": "PhysicsEvents.Entities.Samples.CollisionPhases",
+  "references": [
+    "PhysicsEvents.Entities",
+    "Unity.Entities",
+    "Unity.Physics",
+    "Unity.Collections",
+    "Unity.Burst",
+    "Unity.Mathematics",
+    "Unity.Transforms"
+  ],
+  "autoReferenced": true,
+  "allowUnsafeCode": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "GameObjectBridge.Entities",
+  "rootNamespace": "GameObjectBridge.Entities",
+  "references": [
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Transforms",
+    "Unity.Collections",
+    "Unity.Mathematics"
+  ],
+  "autoReferenced": true
+}

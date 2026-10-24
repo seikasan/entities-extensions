@@ -1,0 +1,10 @@
+{
+  "name": "GameObjectBridge.Entities.AutomaticSample",
+  "references": [
+    "GameObjectBridge.Entities",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Transforms"
+  ]
+}

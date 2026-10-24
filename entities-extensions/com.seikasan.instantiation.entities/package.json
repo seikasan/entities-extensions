@@ -1,0 +1,23 @@
+{
+  "name": "com.seikasan.instantiation.entities",
+  "version": "1.0.0",
+  "displayName": "Instantiation for Entities",
+  "description": "Instantiate and initialize entities with extensions for EntityManager, EntityCommandBuffer, and ParallelWriter.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "seika",
+    "url": "https://github.com/seikasan"
+  },
+  "dependencies": {
+    "com.unity.entities": "1.5.0",
+    "com.unity.mathematics": "1.3.3"
+  },
+  "samples": [
+    {
+      "displayName": "Bullet Spawning",
+      "description": "A self-contained bullet spawning example. Add BulletSpawningSample to an empty GameObject and enter Play Mode.",
+      "path": "Samples~/BulletSpawning"
+    }
+  ]
+}

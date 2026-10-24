@@ -1,0 +1,13 @@
+{
+  "name": "Instantiation.Entities.BulletSample",
+  "rootNamespace": "Instantiation.Entities.Samples",
+  "references": [
+    "Instantiation.Entities",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Transforms",
+    "Unity.Burst"
+  ],
+  "autoReferenced": true
+}

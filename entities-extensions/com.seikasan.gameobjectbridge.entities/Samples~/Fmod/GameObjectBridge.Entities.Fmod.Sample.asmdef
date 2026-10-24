@@ -1,0 +1,15 @@
+{
+  "name": "GameObjectBridge.Entities.Fmod.Sample",
+  "references": [
+    "GameObjectBridge.Entities",
+    "GameObjectBridge.Entities.Fmod",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Transforms",
+    "FMODUnity"
+  ],
+  "defineConstraints": [
+    "GAMEOBJECT_BRIDGE_FMOD"
+  ]
+}

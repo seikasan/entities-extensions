@@ -1,0 +1,19 @@
+{
+  "name": "InputSystem.Entities",
+  "rootNamespace": "InputSystem.Entities",
+  "references": [
+    "Unity.Entities",
+    "Unity.InputSystem",
+    "Unity.Mathematics",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Entities.Hybrid"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

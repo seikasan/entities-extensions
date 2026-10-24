@@ -1,0 +1,34 @@
+{
+  "name": "com.seikasan.inputsystem.entities",
+  "version": "1.0.0",
+  "displayName": "Input System for Entities",
+  "description": "ECS integration for Unity Input System with automatic code generation, familiar InputAction APIs, and Burst-compatible input access.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "seika",
+    "url": "https://github.com/seikasan"
+  },
+  "keywords": [
+    "input",
+    "input-system",
+    "ecs",
+    "entities",
+    "dots",
+    "burst",
+    "code-generation"
+  ],
+  "dependencies": {
+    "com.unity.entities": "1.5.0",
+    "com.unity.inputsystem": "1.20.1",
+    "com.unity.burst": "1.8.30",
+    "com.unity.mathematics": "1.3.3"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Input",
+      "description": "A generated ECS input system using keyboard and gamepad bindings.",
+      "path": "Samples~/BasicInput"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "InputSystem.Entities.Editor",
+  "rootNamespace": "InputSystem.Entities.Editor",
+  "references": [
+    "InputSystem.Entities",
+    "Unity.InputSystem",
+    "Unity.Entities",
+    "Unity.Mathematics",
+    "Unity.Collections"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "noEngineReferences": false
+}

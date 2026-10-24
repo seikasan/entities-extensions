@@ -1,0 +1,14 @@
+{
+  "name": "PhysicsEvents.Entities.PickupSample",
+  "rootNamespace": "PhysicsEvents.Entities.Samples",
+  "references": [
+    "PhysicsEvents.Entities",
+    "Unity.Entities",
+    "Unity.Physics",
+    "Unity.Collections",
+    "Unity.Burst",
+    "Unity.Mathematics",
+    "Unity.Transforms"
+  ],
+  "autoReferenced": true
+}

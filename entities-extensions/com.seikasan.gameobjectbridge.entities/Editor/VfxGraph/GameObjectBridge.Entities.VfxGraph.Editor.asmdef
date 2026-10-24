@@ -1,0 +1,19 @@
+{
+  "name": "GameObjectBridge.Entities.VfxGraph.Editor",
+  "references": [
+    "Unity.VisualEffectGraph.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "defineConstraints": [
+    "BRIDGE_VFXGRAPH"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.visualeffectgraph",
+      "expression": "[17.3,18.0)",
+      "define": "BRIDGE_VFXGRAPH"
+    }
+  ]
+}

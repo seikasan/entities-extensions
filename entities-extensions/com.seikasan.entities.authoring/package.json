@@ -1,0 +1,24 @@
+{
+  "name": "com.seikasan.entities.authoring",
+  "version": "1.0.0",
+  "displayName": "Entities Authoring",
+  "description": "Generate Inspector authoring components and Bakers from annotated Unity Entities components.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "seika",
+    "url": "https://github.com/seikasan"
+  },
+  "dependencies": {
+    "com.unity.entities": "1.5.0",
+    "com.unity.collections": "2.7.1",
+    "com.unity.mathematics": "1.3.3"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Authoring",
+      "description": "Components that automatically gain Inspector authoring and Bakers after import.",
+      "path": "Samples~/BasicAuthoring"
+    }
+  ]
+}

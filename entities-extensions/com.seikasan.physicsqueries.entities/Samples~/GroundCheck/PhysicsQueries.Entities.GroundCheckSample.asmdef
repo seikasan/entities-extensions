@@ -1,0 +1,13 @@
+{
+  "name": "PhysicsQueries.Entities.GroundCheckSample",
+  "references": [
+    "PhysicsQueries.Entities",
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Physics",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Transforms",
+    "Unity.Burst"
+  ]
+}

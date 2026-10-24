@@ -1,0 +1,12 @@
+{
+  "name": "Instantiation.Entities",
+  "rootNamespace": "Instantiation.Entities",
+  "references": [
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Mathematics",
+    "Unity.Transforms"
+  ],
+  "autoReferenced": true,
+  "allowUnsafeCode": false
+}

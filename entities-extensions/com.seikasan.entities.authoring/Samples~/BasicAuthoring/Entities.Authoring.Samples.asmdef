@@ -1,0 +1,10 @@
+{
+  "name": "Entities.Authoring.Samples",
+  "references": [
+    "Entities.Authoring",
+    "Unity.Entities",
+    "Unity.Entities.Hybrid",
+    "Unity.Collections"
+  ],
+  "autoReferenced": true
+}

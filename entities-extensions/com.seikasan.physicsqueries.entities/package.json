@@ -1,0 +1,30 @@
+{
+  "name": "com.seikasan.physicsqueries.entities",
+  "version": "1.0.0",
+  "displayName": "Physics Queries for Entities",
+  "description": "Thin, Burst-compatible PhysicsWorldSingleton query extensions with familiar argument ordering.",
+  "unity": "6000.3",
+  "license": "MIT",
+  "author": {
+    "name": "seika",
+    "url": "https://github.com/seikasan"
+  },
+  "dependencies": {
+    "com.unity.entities": "1.5.0",
+    "com.unity.physics": "1.5.0",
+    "com.unity.mathematics": "1.3.3",
+    "com.unity.collections": "2.7.1"
+  },
+  "samples": [
+    {
+      "displayName": "Raycast",
+      "description": "Run a ray query against a self-contained physics world.",
+      "path": "Samples~/Raycast"
+    },
+    {
+      "displayName": "Ground Check",
+      "description": "AfterPhysicsSystemGroup and a Burst IJobEntity ground check.",
+      "path": "Samples~/GroundCheck"
+    }
+  ]
+}
