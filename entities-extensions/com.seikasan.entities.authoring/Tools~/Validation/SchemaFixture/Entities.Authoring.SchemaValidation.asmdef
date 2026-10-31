@@ -1,0 +1,8 @@
+{
+  "name": "Entities.Authoring.SchemaValidation",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}
